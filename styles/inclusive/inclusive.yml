@@ -1,0 +1,14 @@
+extends: existence
+message: Consider changing '%s' to a more inclusive phrase
+level: warning
+code: true
+ignorecase: true
+tokens:
+    - whitelist
+    - blacklist
+    - master
+    - slave
+    - master/slave
+    - killing
+    - aborting
+    - terminating
